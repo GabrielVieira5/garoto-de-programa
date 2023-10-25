@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #F29F05;
+}
+
+body{
+    margin: 0;
+    background-color: var(--cor1);
+}
+
+header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 110px;
+}
