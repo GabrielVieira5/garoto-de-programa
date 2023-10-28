@@ -12,12 +12,11 @@ body{
 header{
     display: flex;
     justify-content: center;
-    
+    flex-direction: column;    
 }
 
 nav{
-    
-    
+    margin: auto;
 }
 
 .item-nav{
@@ -36,7 +35,7 @@ nav{
 .logo-img{
     width: 95px;
     margin-top: 15px;
-    margin: ato;
+    margin: auto;
     margin-bottom: 15px;
 }
 
