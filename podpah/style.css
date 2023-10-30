@@ -39,3 +39,17 @@ nav{
     margin-bottom: 15px;
 }
 
+.podpah{
+    background: url(imagens/fb-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 200px;
+    opacity: .5;
+}
+
+.text1,
+.text2{
+    z-index: 333;
+    opacity: 1;
+}
