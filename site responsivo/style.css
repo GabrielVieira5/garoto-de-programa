@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h1{
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    /*MAX-WIDTH = TELAS MENOR QUE:*/
+    h1{
+        color: blue;
+    }
+}
+
+@media print and (max-width: 700px) {
+    h1{
+        color: green;
+    }
+}
+
+@media (max-width: 600px){
+    h1{
+        color: purple;
+    }
+}
+
+@media (min-width: 200px){
+    h3{
+        color: brown;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 700px){
+    h4{
+        font-size: 50px;
+    }
+}
+
+@media (orientation: landscape){
+    h5{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media (max-width: 400px), (orientation: landscape){
+    h6{
+        font-size: 4em;
+    }
+}
+
