@@ -18,13 +18,13 @@
 
 }
 
-*{
-    font-family: fonte-interface;
+body{
     background-color: var(--cor1);
     margin: 0;
 }
 
 nav{
+    font-family: fonte-interface;
     display: flex;
     color: var(--cor4);
     text-align: center;
@@ -44,6 +44,8 @@ main{
     height: 40vh;
     position: relative;
 }
+
+
 
 .conteudo1-texto{
     position: absolute;
@@ -67,4 +69,28 @@ main{
 .img-pai{
     display: flex;
     justify-content: flex-end;
+}
+
+.botao > p {
+    text-align: center;
+    line-height: .9em;
+    transition: .5s;
+    opacity: .5;
+}
+
+.botao > p:hover{
+    line-height: 1.5em;
+    transition: .5s;
+    opacity: 1;
+}
+
+.seta{
+    font-size: 30px;
+}
+
+
+
+.sobre > h1 {
+    margin-top: 70px;
+    text-align: center;
 }
