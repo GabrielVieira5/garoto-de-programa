@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fonte-interface;
+    src: url(fontes/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: fonte-conteudo;
+    src: url(fontes/ModernSans-Light.otf);
+}
+
+:root{
+    --cor1: #241E92;
+    --cor2: #5432D3;
+    --cor3: #7B6CF6;
+    --cor4: #E5A5FF;
+
+}
+
+*{
+    font-family: fonte-interface;
+    background-color: var(--cor1);
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    color: var(--cor4);
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.navitens{
+    color: #E5A5FF;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+main{
+    font-family: fonte-conteudo;
+    color: var(--cor4);
+    height: 40vh;
+    position: relative;
+}
+
+.conteudo1-texto{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.conteudo1-texto > h1, p{
+    text-align: center;
+    
+}
+
+.img-vieira{
+    width: 50%;
+    border-radius: 15%;
+}
+.img-pai{
+    display: flex;
+    justify-content: flex-end;
+}
