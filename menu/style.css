@@ -13,6 +13,17 @@
 body{
     background-color: rgb(33, 28, 28);
     color: white;
+    margin: 0;
+    font-family: fonte-padrao;
+}
+
+header{
+    display: flex;
+    background-color: rgb(17, 15, 15);
+    border-bottom: solid 1px white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
 .menu > a{
@@ -26,21 +37,23 @@ body{
 .menu > a:hover{
     color: rgb(179, 0, 0);
     transition: ease-in-out all .5s;
-    position: fixed;
 }
 
-.menu{
-    text-align: center;
-    margin-bottom: 25px;
+.menu{ 
+    position: absolute;
+    right: 5%;
+    
+}
+
+.logo-header{
+    padding: 25px;
+    width: 90px;
 }
 
 .quem{
     width: 50%;
 }
 
-.imagem{
-    width: 50%;
-}
-main{
-    display: flex;
+.quem > h1{
+    font-size: 35px;
 }
