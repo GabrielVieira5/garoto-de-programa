@@ -50,10 +50,24 @@ header{
     width: 90px;
 }
 
-.quem{
-    width: 50%;
-}
 
 .quem > h1{
     font-size: 35px;
+}
+
+.img-eu{
+    height: 600px;
+    padding: 20px;
+}
+
+.quem{
+    display: flex;
+    font-size: 20px;
+}
+
+.texto-quem{
+    display: flex;
+    flex-direction:column ;
+    padding: 20px;
+    justify-content: center;
 }
