@@ -51,23 +51,23 @@ header{
 }
 
 
-.quem > h1{
-    font-size: 35px;
+/****************************************************************/
+
+.botao-main{
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    right: 4%;
 }
 
-.img-eu{
-    height: 600px;
-    padding: 20px;
-}
-
-.quem{
-    display: flex;
-    font-size: 20px;
-}
-
-.texto-quem{
-    display: flex;
-    flex-direction:column ;
-    padding: 20px;
-    justify-content: center;
+.quem > p {
+    font-family: fonte-padrao;
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    font-size: 30px;
 }
