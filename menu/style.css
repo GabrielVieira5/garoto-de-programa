@@ -94,10 +94,16 @@ header{
     align-items: center;
     padding: 40px;
     text-align: center;
-    border: solid 1px white;
+
     margin: 0 15px;
     border-radius: 20px;
     transition: all ease-in-out .5s;
+}
+
+.habilidades > div:hover{
+    background-color: white;
+    color: #211c1c;
+
 }
 
 
