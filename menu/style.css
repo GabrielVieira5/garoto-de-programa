@@ -131,12 +131,25 @@ header{
     display: flex;
     flex-direction: column;
     font-size: 0;
-    width: 150px;
 }
 
 .html:hover{
     font-size: 15px;
     box-shadow: inset 0 0 15px 0px #FC490B;
+}
+
+.css:hover{
+    font-size: 15px;
+    box-shadow: inset 0 0 15px 0px #2196F3;
+}
+
+.js:hover{
+    font-size: 15px;
+    box-shadow: inset 0 0 15px 0px #FFDF00;
+}
+
+.icon > p {
+    width: 100px;
 }
 
 
